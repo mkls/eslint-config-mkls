@@ -55,7 +55,7 @@ module.exports = {
 
         // stylistic rules
         "max-len": ["warn", 120],
-        "operator-linebreak": ["warn", "after"],
+        "operator-linebreak": ["warn"],
         "lines-around-comment": ["warn"],
         "one-var-declaration-per-line": "warn",
         "one-var": ["warn", "never"],
@@ -112,6 +112,13 @@ module.exports = {
         "no-self-assign": "warn",
         "no-unused-labels": "warn",
         "no-delete-var": "warn",
-        "no-mixed-spaces-and-tabs": "warn"
+        "no-mixed-spaces-and-tabs": "warn",
+
+        // ES6 rules
+        "arrow-body-style": ["warn", "as-needed"],
+        "arrow-parens": ["warn", "as-needed"],
+        "arrow-spacing": "warn",
+        "no-var": "warn",
+        "prefer-const": "warn",
     }
 }

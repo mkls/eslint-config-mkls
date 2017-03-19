@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mkls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sharable eslint rules",
   "main": "index.js",
   "scripts": {
