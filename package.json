@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-mkls",
+  "version": "1.0.0",
+  "description": "sharable eslint rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkls/eslint-config-mkls.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "lint"
+  ],
+  "author": "Mkls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkls/eslint-config-mkls/issues"
+  },
+  "homepage": "https://github.com/mkls/eslint-config-mkls#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
